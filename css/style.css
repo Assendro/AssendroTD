@@ -1,0 +1,155 @@
+
+/* сброс стилей */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+/* конец сброса стилей */
+
+
+
+body {
+	background-color: black;
+	width: 960px;
+	height: 640px;
+	margin: auto;
+}
+.gameOver {
+	position: absolute;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	font-size: 80px;
+	font-family: Bungee Spice;
+}
+.canvasDiv {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hpBar{
+	position: absolute;
+	top: 14px;
+	right: 80px;
+	height: 32px;
+	width: 32px;
+}
+.hpQuantity{
+	position: absolute;
+	top: 12px;
+	right: 35px;
+	font-size: 30px;
+	font-family: Cinzel;
+	color: #ff0000;
+}
+.goldBar{
+	position: absolute;
+	top: 54px;
+	right: 80px;
+	height: 32px;
+	width: 32px;
+}
+.goldQuantity{
+	position: absolute;
+	top: 52px;
+	right: 35px;
+	font-size: 30px;
+	font-family: Cinzel;
+	color: #fffb00;
+}
+.waveQuantity{
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	font-size: 30px;
+	font-family: Cinzel;
+	color: #ff9d00;
+}
+.waveText{
+	position: absolute;
+	top: 20px;
+	left: 35px;
+	font-size: 30px;
+	font-family: Cinzel;
+	color: #ff9d00;
+}
